@@ -1,0 +1,143 @@
+body {
+background: linear-gradient(to right, #fd353f, #fd5c63);
+min-width: 600px;
+min-hight: 500px;
+/*   max-width: 800px; */
+/*   border-style: solid; */
+}
+
+.container {
+background: #ffffff;
+width: 540px;
+min-height: 300px;
+margin: 0 auto;
+position: relative;
+margin-top: 5%;
+box-shadow: 2px 5px 20px rgba(119, 119, 119, 0.5);
+}
+
+.cta-btn {
+background-color: #fd5c63; 
+min-width: 175px;
+height: 50px;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+font-family: "Montserrat", sans-serif;
+font-weight: bolder;
+cursor: pointer;
+}
+    
+
+.CTA {
+width: 120px;
+right: -18px;
+bottom: 0;
+float: right;
+margin-bottom: 50px;
+position: absolute;
+z-index: 1;
+transform: rotate(-90deg) scale(0.7);
+transition: all 0.5s ease-in-out;
+}
+
+.CTA:hover {
+background: #fd353f;
+transform: scale(1.1);
+box-shadow: 2px 5px 20px rgba(150, 107, 107, 0.5);
+z-index: 10;
+right: 75px;
+position: absolute;
+}
+
+.rightbox {
+float: right;
+top:-10%;
+left: 85%;
+position: absolute;
+z-index: 2;
+width: 5%;
+height: 120%;
+background: #fd5c63;
+box-shadow: 3px 3px 10px rgba(119, 119, 119, 0.5);
+}
+
+.leftbox {
+float: left;
+left: 10%;
+position: absolute;
+width: 70%;
+height: 80%;
+  /* border-style: solid; */
+}
+
+.facts {
+transition: opacity 0.5s ease-in;
+position: absolute;
+width: 100%;
+}
+
+h1 {
+font-family: "Montserrat", sans-serif;
+color: #fd5c63;
+font-size: 1.75em;
+margin-top: 40px;
+margin-bottom: 0px;
+}
+
+.date{
+  margin-top: 0px;
+}
+
+h2 {
+color: #777777;
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+letter-spacing: 1px;
+margin-left: 2px;
+}
+
+p {
+border-width: 1px;
+border-style: solid;
+border-image: linear-gradient(to right, #fd5c63, #fd353f) 1
+    0%;
+border-top: 0;
+font-family: "Montserrat", sans-serif;
+font-size: 0.7em;
+padding: 7px 0;
+color: #070707;
+}
+
+span {
+color: white;
+font-family: "Roboto", sans-serif;
+width: 50%;
+text-transform: uppercase;
+font-size: 14px;
+letter-spacing: 1px;
+margin-left: 2px;
+}
+
+.btn {
+float: left;
+font-family: "Roboto", sans-serif;
+padding: 10px;
+font-size: 18px;
+border: none;
+color: #fd5c63;
+}
+
+.btn:hover {
+text-transform: uppercase;
+font-weight: 900;
+}
+
+svg{
+fill: white;
+max-width:20px;
+}
