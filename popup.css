@@ -2,8 +2,6 @@ body {
 background: linear-gradient(to right, #fd353f, #fd5c63);
 min-width: 600px;
 min-hight: 500px;
-/*   max-width: 800px; */
-/*   border-style: solid; */
 }
 
 .container {
@@ -72,7 +70,6 @@ left: 10%;
 position: absolute;
 width: 70%;
 height: 80%;
-  /* border-style: solid; */
 }
 
 .facts {
