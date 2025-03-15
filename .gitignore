@@ -346,3 +346,11 @@ healthchecksdb
 .DS_Store
 .DS_Store?
 .idea
+
+# Images
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.ico
+*.svg
