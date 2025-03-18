@@ -1,13 +1,17 @@
 body {
-background: linear-gradient(to right, #fd353f, #fd5c63);
+background: url("greek-background.jpg");
 min-width: 600px;
-min-hight: 500px;
+min-height: 500px;
+background-color: #cccccc; /* Used if the image is unavailable */
+background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 .container {
-background: #ffffff;
+background: #ffffffd7;
 width: 540px;
-min-height: 300px;
+min-height: 400px;
 margin: 0 auto;
 position: relative;
 margin-top: 5%;
@@ -15,7 +19,7 @@ box-shadow: 2px 5px 20px rgba(119, 119, 119, 0.5);
 }
 
 .cta-btn {
-background-color: #fd5c63; 
+background-color: #5f5a6d;
 min-width: 175px;
 height: 50px;
 border: none;
@@ -44,7 +48,7 @@ transition: all 0.5s ease-in-out;
 }
 
 .CTA:hover {
-background: #fd353f;
+background: #140f44;
 transform: scale(1.1);
 box-shadow: 2px 5px 20px rgba(150, 107, 107, 0.5);
 z-index: 10;
@@ -60,7 +64,7 @@ position: absolute;
 z-index: 2;
 width: 5%;
 height: 120%;
-background: #fd5c63;
+background: #5f5a6d;
 box-shadow: 3px 3px 10px rgba(119, 119, 119, 0.5);
 }
 
@@ -80,7 +84,7 @@ width: 100%;
 
 h1 {
 font-family: "Montserrat", sans-serif;
-color: #fd5c63;
+color: #5f5a6d;
 font-size: 1.75em;
 margin-top: 40px;
 margin-bottom: 0px;
@@ -91,17 +95,26 @@ margin-bottom: 0px;
 }
 
 h2 {
-color: #777777;
+color: #1f1f1f;
 font-family: "Roboto", sans-serif;
 font-size: 16px;
 letter-spacing: 1px;
 margin-left: 2px;
 }
 
+.lead {
+  color: #1f1f1f;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin-left: 2px;
+  }
+
 p {
 border-width: 1px;
 border-style: solid;
-border-image: linear-gradient(to right, #fd5c63, #fd353f) 1
+border-image: linear-gradient(to right, #5f5a6d, #140f44) 1
     0%;
 border-top: 0;
 font-family: "Montserrat", sans-serif;
@@ -127,7 +140,8 @@ padding: 10px;
 margin: 10px;
 font-size: 18px;
 border: none;
-color: #fd5c63;
+color: white;
+background-color: #5f5a6d;
 }
 
 .btn:hover {
@@ -135,7 +149,11 @@ text-transform: uppercase;
 font-weight: 900;
 }
 
-svg{
-fill: white;
-max-width:20px;
+a {
+text-decoration: none;
+color: #070707;
+}
+
+a:hover {
+text-transform: italic;
 }

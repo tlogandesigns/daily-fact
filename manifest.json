@@ -1,8 +1,8 @@
 {
-  "name": "Daily Fact",
+  "name": "Random Jokes from the Worlds Oldest Jokebook",
   "version": "1.0",
   "manifest_version": 3,
-  "description": "Display Random Facts.",
+  "description": "Get a random joke from the worlds oldest jokebook. The Philogelos.",
   "icons": { 
     "48": "icon48.png", 
     "128": "icon128.png" 
